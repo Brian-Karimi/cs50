@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+
+}
+.search_bar{
+   
+    justify-content: center;
+    margin: 40px 0;
+    
+}
+.search_bar form {
+    display:flex;
+}
+.search_bar input[type="text"] {
+   
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .search-bar button {
+
+    cursor: pointer;
+  }
+  .links{
+    display: flex;
+    justify-content: flex-end;
+    padding: auto;
+  }
+  .image_srch{
+    margin-right: 2%;
+  }
+  .adv_srch{
+    margin-left: 2%;
+  }
